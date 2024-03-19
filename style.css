@@ -1,0 +1,137 @@
+body{
+    background-color:antiquewhite;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+.mid{
+    width: 50%;
+    color:black;
+    background-color:azure;
+    border-radius: 9px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  
+
+}
+.mid img{
+   display: block;
+  
+    width: 80%;
+    margin: 30px auto;
+    border-radius: 10px;
+
+}
+.mid .one{
+    
+  
+    width: 80%;
+    margin: 30px auto;
+    font-weight: 800;
+    font-size: x-large;
+}
+.mid .two{
+    width: 80%;
+    margin: 30px auto;
+}
+.mid .sec{
+    width: 80%;
+    color:black;
+    background-color:antiquewhite;
+    border-radius: 9px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+    margin-bottom: 25px;
+}
+.mid .sec .tittl,.mid .sec2 .tittl2,.mid .instructions .instruct,.mid .nutrious .nutriouss{
+    margin-left: 0px;
+    color: darkred;
+    font-weight: bolder;
+}
+.mid .sec ul li{
+    margin-top: 5px;
+}
+.mid .sec span{
+font-weight: bolder;
+}
+.mid .sec2{
+    width: 80%;
+    color:black;
+   
+    border-radius: 9px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+    margin-bottom: 25px;
+}
+.mid .sec2 ul li{
+    margin-top: 8px;
+    margin-left: 0px;
+}
+hr{
+    width:80%;
+    text-align:center;
+    /* margin-left:0 */
+}
+.mid .instructions{
+    width: 80%;
+    color:black;
+   
+    border-radius: 9px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+    margin-bottom: 25px;
+}
+.mid .instructions ol li{
+    padding-left: 15px;
+}
+.mid .nutrious{
+    width: 80%;
+    color:black;
+   
+    border-radius: 9px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+    margin-bottom: 25px;
+}
+.mid .table2{
+    width: 80%;
+    color:black;
+   
+    border-radius: 9px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+    margin-bottom: 5px;
+    
+    
+}
+.mid .table2 table{
+    width: 100%;
+}
+.table2 .colore{
+    color: darkred;
+}
+
+
+.mid .table2 table th.left{
+  border-bottom: 1px solid #ddd;
+
+}
+/* .mid .table2 table td , th:not(:last-child){
+  border: 0px;
+
+} */
